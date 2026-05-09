@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flowlytics - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="nav">
+  <div class="logo">
+    <div class="dot"></div>
+    <h2>Flowlytics</h2>
+  </div>
+
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="dashboard.html">Dashboard</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero hero-big">
+
+  <div class="badge">🚀 Real-Time Analytics Platform</div>
+
+  <h1>Understand Every User Click, Scroll & Action</h1>
+
+  <p>
+    Flowlytics helps you track user behavior like Google Analytics using simple event-based tracking.
+  </p>
+
+  <div class="buttons">
+    <button onclick="trackClick('Get Started')">Get Started</button>
+    <button class="secondary" onclick="trackClick('Watch Demo')">Watch Demo</button>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="stat-box">
+      <h2>10K+</h2>
+      <p>Events Tracked</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>500+</h2>
+      <p>Websites Simulated</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>99%</h2>
+      <p>Tracking Accuracy</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- MINI FEATURES -->
+<section class="mini">
+
+  <div class="mini-card" onclick="trackClick('Home Click Tracking')">
+    🖱 Click Tracking
+  </div>
+
+  <div class="mini-card">
+    📊 Scroll Analytics
+  </div>
+
+  <div class="mini-card">
+    ⚡ Real-time Events
+  </div>
+
+</section>
+
+<script src="tracker.js"></script>
+</body>
+</html>
